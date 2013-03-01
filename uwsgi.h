@@ -3,12 +3,12 @@
 /* indent -i8 -br -brs -brf -l0 -npsl -nip -npcs -npsl -di1 -il0 */
 
 #ifndef INET_ADDRSTRLEN
-# define INET_ADDRSTRLEN 16
-#endif INET_ADDRSTRLEN
+#define INET_ADDRSTRLEN 16
+#endif
 
 #ifndef INET6_ADDRSTRLEN
-# define INET6_ADDRSTRLEN 46
-#endif INET6_ADDRSTRLEN
+#define INET6_ADDRSTRLEN 46
+#endif
 
 #ifdef __cplusplus
 extern "C" {
